@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<head>
+    <title>SSP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Study Planner</h1>
+    <p>(Smart Schedules. Smarter Results)</p>
+    <img src="plan.jpg"  class="img1">
+    <img src="plan2.jpg" class="img2">
+    <div class="box1">
+    Study Goal:<input type="text" id="taskTitle" placeholder="Enter study goal"><br>
+    Date: <input type="date" id="taskDate"><br>
+    <button id="addTaskBtn">Add Task</button><br>
+    </div>
+    <br>
+    <h2>Your Study Tasks</h2>
+    <br>
+  <ul id="taskList"></ul>
+  <h3>Filter Your Tasks</h3>
+<input type="date" id="filterDate">
+<input type="text" id="filterText" placeholder="Search by study goal">
+<button id="applyFilterBtn">Apply Filter</button>
+<button id="clearFilterBtn">Clear Filter</button>
+  <script src="script.js"></script>
+</body>
