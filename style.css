@@ -1,0 +1,62 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: papayawhip;
+  text-align: center;
+  padding: 20px;
+}
+p{
+  font-size: 20px;
+}
+img{
+    float: left;
+    width:350px;
+}
+.img1{
+  transition: transform 0.3s ease-in-out;
+    transform: scale(0.9); 
+}
+.img1:hover {
+  transform: scale(1); 
+}
+.img2{
+    float: right;
+    width:350px;
+    height: 220px;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(0.9); 
+}
+.img2:hover {
+  transform: scale(1); 
+}
+
+h2{
+  justify-self:center;
+}
+.box1{
+    border: 2px solid;
+  margin: 20px 0;
+  width:30%;
+  height: 190px;
+  justify-self: center;
+  
+}
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 50px;
+}
+button{
+  background-color:lightskyblue;
+  border:ridge;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
